@@ -64,7 +64,7 @@ app.post("/submit", (req, res) => {
     console.log(totalCorrect);
     isCorrect = true;
   }
-
+  
   nextQuestion();
   res.render("index.ejs", {
     question: currentQuestion,
